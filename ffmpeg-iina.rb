@@ -17,6 +17,7 @@ EOS
   depends_on "pkg-config" => :build
   depends_on "texi2html" => :build
   depends_on "aom"
+  depends_on "dav1d"
   depends_on "fontconfig"
   depends_on "freetype"
   depends_on "frei0r"
@@ -49,6 +50,7 @@ EOS
       --enable-gnutls
       --enable-gpl
       --enable-libbluray
+      --enable-libdav1d
       --enable-librubberband
       --enable-libsnappy
       --enable-libtesseract
