@@ -1,11 +1,11 @@
-# Last check with upstream: 7b46e86beaa3ed8e1c729e8e0b902a40c96ddc80
+# Last check with upstream: 6a39dfa5a1b2c379f41b2a2f55c8baae75e0d553
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ffmpeg.rb
 
 class FfmpegIina < Formula
   desc "Play, record, convert, and stream audio and video"
   homepage "https://ffmpeg.org/"
-  url "https://ffmpeg.org/releases/ffmpeg-4.3.tar.xz"
-  sha256 "1d0ad06484f44bcb97eba5e93c40bcb893890f9f64aeb43e46cd9bb4cbd6795d"
+  url "https://ffmpeg.org/releases/ffmpeg-4.2.2.tar.xz"
+  sha256 "cb754255ab0ee2ea5f66f8850e1bd6ad5cac1cd855d0a2f4990fb8c668b0d29c"
   head "https://github.com/FFmpeg/FFmpeg.git"
 
   keg_only <<EOS
@@ -17,7 +17,6 @@ EOS
   depends_on "pkg-config" => :build
   depends_on "texi2html" => :build
   depends_on "aom"
-  depends_on "dav1d"
   depends_on "fontconfig"
   depends_on "freetype"
   depends_on "frei0r"
@@ -50,7 +49,6 @@ EOS
       --enable-gnutls
       --enable-gpl
       --enable-libbluray
-      --enable-libdav1d
       --enable-librubberband
       --enable-libsnappy
       --enable-libtesseract
