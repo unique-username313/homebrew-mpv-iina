@@ -1,4 +1,4 @@
-# Last check with upstream: 214fbf099806e2c79ec0f214e12b5becca988011
+# Last check with upstream: 22a27c6720244dd24c9b704c8a8225ca1665272f
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/mpv.rb
 
 class MpvIina < Formula
