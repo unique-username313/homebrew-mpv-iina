@@ -1,11 +1,11 @@
-# Last check with upstream: 7b46e86beaa3ed8e1c729e8e0b902a40c96ddc80
+# Last check with upstream: 4869b2003af0752f1410e21dad08fb358aeb7712
 # https://github.com/Homebrew/homebrew-core/blob/master/Formula/ffmpeg.rb
 
 class FfmpegIina < Formula
   desc "Play, record, convert, and stream audio and video"
   homepage "https://ffmpeg.org/"
-  url "https://ffmpeg.org/releases/ffmpeg-4.3.tar.xz"
-  sha256 "1d0ad06484f44bcb97eba5e93c40bcb893890f9f64aeb43e46cd9bb4cbd6795d"
+  url "https://ffmpeg.org/releases/ffmpeg-4.3.1.tar.xz"
+  sha256 "ad009240d46e307b4e03a213a0f49c11b650e445b1f8be0dda2a9212b34d2ffb"
   head "https://github.com/FFmpeg/FFmpeg.git"
 
   keg_only <<EOS
